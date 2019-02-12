@@ -65,3 +65,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'bootstrap-sass'
 gem 'simple_form'
+
+# DOTENV, so we have a private environment variable
+gem 'dotenv-rails', groups: [:development, :test]
